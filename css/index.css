@@ -1,0 +1,397 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: #FAFAFA;
+            }
+
+            #header {
+                z-index: 1;
+                width: 100%;
+
+                height: 490px;
+                /* border: 1px solid red; */
+                background-image: url(../images/banner3.jpg);
+                background-size: cover;
+                background-position: center center;
+                padding-top: 10px;
+                /* border: 1px solid black; */
+                /* position: absolute; */
+            }
+
+            .header-top {
+                width: 1250px;
+                min-width: 1240px;
+                height: 40px;
+                /*  border: 1px solid black; */
+                /*  margin: 10px auto; */
+                position: fixed;
+                left: 50%;
+                margin-left: -625px;
+            }
+
+            .top-menu {
+
+                list-style: none;
+                /*  border: 1px solid red; */
+                /*浮动：其实就是将元素由块元素转换成了行内块元素(inline-block)*/
+                float: left;
+            }
+
+            .menu {
+                float: left;
+                /*   display: inline-block; */
+                line-height: 30px;
+                margin-right: 28px;
+            }
+
+            .menu:hover {
+                border-bottom: 1px solid #fff;
+            }
+
+            .menu a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .top-right {
+                /*  border: 1px solid red; */
+                float: right;
+            }
+
+            .top-right a {
+                margin-left: 10px;
+                width: 64px;
+                height: 38px;
+                display: inline-block;
+                text-align: center;
+                line-height: 38px;
+                color: #fff;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .right-register {
+                background: #D44D4E;
+                border: none;
+            }
+
+            .right-register:hover {
+                background: red;
+                opacity: 0.65;
+            }
+            /*设置登录样式*/
+
+            .right-login {
+                border: 1px solid #fff;
+            }
+
+            .right-login:hover {
+                background: #fff;
+                color: #000;
+            }
+
+            .top-menu li:nth-child(2) {
+                border-bottom: 1px solid #fff;
+            }
+
+            .top-menu span {
+                width: 30px;
+                height: 15px;
+                background: #FFA33D;
+                font-size: 12px;
+            }
+
+            .top-menu li:last-child img {
+                width: 40px;
+            }
+            /*设置头部标题*/
+
+            #header-title {
+                width: 28%;
+                height: 50px;
+                /* border: 1px solid black; */
+                margin-top: 7.2%;
+                background: url(../images/head_title.svg);
+            }
+            /*设置搜索框的样式*/
+
+            #header-input {
+
+                width: 43%;
+                margin-top: 30px;
+            }
+
+            #header-input input {
+                color: #000;
+                width: 100%;
+                height: 40px;
+                background: rgba(0, 0, 0, .2);
+                border: 1px solid rgba(255, 255, 255, .8);
+                outline: none;
+                /*在文本框中点击时，周围不会出现蓝色边框线*/
+                background: url(../images/icon_search.svg);
+                background-repeat: no-repeat;
+                /*设置盒子背景图片的位置*/
+                background-position: right center;
+                padding-left: 20px;
+            }
+            /*鼠标悬浮边框变为纯白色*/
+
+            #header-input input:hover {
+                border: 1px solid rgba(255, 255, 255, 1);
+                background-color: rgba(0, 0, 0, .4);
+            }
+
+            #header-searchtext {
+
+                width: 42.2%;
+                text-align: center;
+                margin-top: 15px;
+            }
+
+            #header-searchtext span {
+                color: rgba(255, 255, 255, .8);
+            }
+
+            #header-searchtext a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            #content {
+                width: 1250px;
+            }
+            /*内容标题*/
+
+            .content-title {
+                /* border: 1px solid black; */
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .content-title span {
+                font-size: 20px;
+                color: #8F8C8C;
+            }
+
+            .content-title-left {
+                display: inline-block;
+                width: 500px;
+                height: 1px;
+                background: rgba(0, 0, 0, .1);
+                float: left;
+                margin-top: 12px;
+            }
+
+            .content-title-right {
+                display: inline-block;
+                width: 500px;
+                height: 1px;
+                background: rgba(0, 0, 0, .1);
+                float: right;
+                margin-top: 12px;
+            }
+            /*设置类别的样式*/
+
+            .content-type {
+                /*  border: 1px solid red; */
+            }
+
+            .content-type div {
+                width: 160px;
+                line-height: 70px;
+                /*  border: 1px solid blue; */
+                float: left;
+                margin-right: 19px;
+                border-radius: 10px;
+                text-align: center;
+                
+            }
+            .content-type div a{
+                text-decoration: none;
+                font-size: 20px;
+                color: #fff;
+                font-weight: bolder;
+            }
+
+
+            .content-type div:last-child {
+                margin-right: 0px;
+            }
+
+            .content-type  div:nth-child(1) {
+                background: url(../images/icon1.jpg);
+            }
+
+            .content-type  div:nth-child(2) {
+                background: url(../images/icon2.jpg);
+            }
+
+            .content-type div:nth-child(3) {
+                background: url(../images/icon3.jpg);
+            }
+
+            .content-type div:nth-child(4) {
+                background: url(../images/icon4.jpg);
+            }
+
+            .content-type div:nth-child(5) {
+                background: url(../images/icon5.jpg);
+            }
+
+            .content-type div:nth-child(6) {
+                background: url(../images/icon6.jpg);
+            }
+
+            .content-type div:nth-child(7) {
+                background: url(../images/icon7.jpg);
+            }
+            /*设置为您推荐样式*/
+
+            .content-main {
+                width: 100%;
+                /*  border: 1px solid black; */
+            }
+            /*后代选择器，会选择.content-main元素下的所有的div*/
+            /*选择器权重：1个id选择器=100；一个类选择器=10；1个元素选择器=1，累加之后哪个大，哪个权重就高*/
+            /*11*/
+
+            .content-main div {
+                width: 20%;
+                height: 250px;
+
+                float: left;
+            }
+
+            .content-main-one img {
+                width: 100%;
+            }
+            /*10*/
+
+            .content-main .content-main-two-top {
+                width: 100%;
+                height: 45%;
+                background: #fff;
+            }
+
+            .content-main .content-main-two-bottom {
+                width: 100%;
+                height: 45%;
+                background: #fff;
+                margin-top: 10%;
+            }
+
+            .content-main-three {
+                background: #fff;
+            }
+            /*设置文字的样式
+            */
+
+            .content-main-two-top p {
+                color: #999;
+                font-size: 16px;
+                margin-top: 20px;
+                padding-left: 20px;
+            }
+
+            .content-main-two-top p span {
+                color: #000;
+            }
+
+            .content-main-two-bottom p {
+                color: #999;
+                font-size: 16px;
+                margin-top: 20px;
+                text-align: right;
+                padding-right: 20px;
+            }
+
+            .content-main-three p {
+                color: #999;
+                font-size: 16px;
+                margin-top: 20px;
+                padding-left: 20px;
+            }
+
+            .content-main-three p span {
+                color: #000;
+            }
+
+            .content-main-four {
+                background: #fff;
+            }
+
+            .content-main-four p {
+                text-align: right;
+                padding-right: 20px;
+                font-size: 16px;
+                margin-top: 50px;
+                color: #aaa;
+            }
+
+            .content-main-four p:last-child {
+                margin-top: 20px;
+            }
+
+            .content-main-four p span {
+                color: #000;
+            }
+
+            .content-main-more {
+                /*  border: 1px solid red; */
+                width: 100% !important;
+                height: auto !important;
+                text-align: right;
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+
+            .content-main-more a {
+                font-size: 16px;
+                color: #aaa;
+                text-decoration: none;
+            }
+
+            .content-list-title {
+                border-bottom: 3px solid #aaa;
+                margin-bottom: 50px;
+                padding-bottom: 10px;
+            }
+
+            .content-list-title span {
+                font-size: 20px;
+            }
+
+            .content-list-title span:first-child {
+                float: left;
+                color: #aaa;
+            }
+
+            .content-list-title span:last-child {
+                float: right;
+                color: #D29D6D;
+            }
+
+            .content-list-list {
+                border-top: 1px solid rgba(0, 0, 0, .1);
+            }
+
+            .content-list-list div {
+                width: 100%;
+                /*   border: 1px solid black; */
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .content-list-list div a {
+                font-size: 20px;
+                color: #aaa;
+                width: 20%;
+                display: block;
+                float: left;
+                text-decoration: none;
+            }

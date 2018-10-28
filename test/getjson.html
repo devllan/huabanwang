@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+    </body>
+</html>
+<script src="../js/jquery-3.2.1.js"></script>
+<script>
+
+    $(function () {
+        $.ajax({
+            url: "json.php",
+            type: "get",
+            success: function (res) {
+                //将一个string类型的json格式的数据转换为object
+                $data = $.parseJSON(res);
+                console.log($data[0].age);                
+            }
+        });
+    })
+</script>

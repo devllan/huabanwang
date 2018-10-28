@@ -1,0 +1,429 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+
+#public-header {
+    display: none;
+    width: 100%;
+
+    background: #fff;
+    position: fixed;
+    top: 0;
+
+    z-index: 999;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    /*可以防止 底层的内容显示*/
+}
+
+#public-header-main {
+    width: 1250px;
+    /* border: 1px solid black; */
+}
+
+.public-header-menu {
+    /* border: 1px solid red; */
+    list-style: none;
+    float: left;
+    /*设置元素浮动后，其宽度会适应内容，而不是100%*/
+}
+
+.public-header-menu li {
+    float: left;
+    margin-right: 25px;
+    line-height: 35px;
+}
+
+.public-header-menu li:last-of-type {
+    width: 28px;
+    height: 28px;
+}
+
+.public-header-menu li span {
+    background: #FFA33D;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.public-header-menu .header-menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.public-header-input {
+    /* border: 1px solid black; */
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.public-header-input input {
+    width: 100%;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, .2);
+    outline: none;
+    padding-left: 10px;
+}
+
+.public-header-input span {
+    width: 28px;
+    height: 28px;
+    background: url(../images/menu_sprite.svg);
+    background-position: 7px 698px;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.public-header-input span:hover {
+    cursor: pointer;
+}
+
+.public-header-login {
+    /*  border: 1px solid rgba(0, 0, 0, .2);*/
+    float: left;
+    margin-left: 20px;
+    /*   border: 1px solid red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*设置登录后头像样式*/
+
+.public-header-login-img {
+
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    position: relative;
+}
+
+.public-header-login-img ul {
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 50px;
+    list-style: none;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+
+.public-header-login-img ul li {
+    line-height: 40px;
+}
+
+.public-header-login-img ul img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.public-header-login-img img {
+    width: 100%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.public-header-login a {
+    display: inline-block;
+    width: 50px;
+    line-height: 30px;
+    border-radius: 2px;
+}
+
+.public-right-register {
+    background: #D44D4E;
+    color: #fff;
+    text-align: center;
+}
+
+.public-right-register:hover {
+    background: rgba(255, 0, 0, .6);
+    cursor: pointer;
+}
+
+.public-right-login {
+    background: #F2F2F2;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.public-right-login:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#footer {
+    width: 100%;
+
+    background: #000;
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-main {
+    width: 1250px;
+    /*  border: 1px solid #fff; */
+}
+
+.footer-main div {
+    float: left;
+}
+
+.footer-menu {
+    width: 20%;
+    /* border: 1px solid #fff; */
+    /* float: left; */
+}
+
+.footer-menu a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-look {
+    color: #fff;
+    /* border: 1px solid #fff; */
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.footer-lianxi {
+    width: 127px;
+    /* border: 1px solid #fff; */
+    margin-left: 20px;
+}
+
+.footer-lianxi img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*当父元素中的所有子元素都设置为float的时候，那么父元素就会塌陷(没有高度)，需要清楚浮动*/
+
+.clearbox::before,
+.clearbox::after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*登录*/
+
+#login,
+#register {
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+}
+
+.login,
+.register {
+    width: 500px;
+
+    background: #fff;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.login div {
+    /* border: 1px solid black; */
+}
+
+.close {
+
+    text-align: right;
+}
+
+.close a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: #aaa;
+}
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.content div {
+    width: 30%;
+    height: 6px;
+    border: none;
+    border-bottom: 3px solid #FAFAFA;
+    float: left;
+}
+
+.content div:last-child {
+    float: right;
+}
+
+.loginform {
+    width: 80%;
+}
+
+.loginform input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+.loginform input:nth-child(3) {
+    width: 65%;
+    height: 35px;
+    margin-top: 10px;
+    float: left;
+}
+
+.loginform a {
+    display: block;
+    width: 100%;
+    background: #D44D4E;
+    margin-top: 10px;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.loginform input[type="submit"]{
+       
+    width: 100%;
+    background: #D44D4E;
+    margin-top: 10px;
+    line-height: 50px;
+    color: #fff;   
+    border-radius: 20px; 
+}
+
+.text {
+    padding-bottom: 20px;
+}

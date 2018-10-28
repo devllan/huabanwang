@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <link rel="stylesheet" type="text/css" href="css/people.css">
+    <link rel="stylesheet" type="text/css" href="css/list.css">
+</head>
+
+<body>
+    <!--公共头部-->
+    <div id="public-header" style="display: block;">
+        <div id="public-header-main" class="clearbox">
+            <!--菜单-->
+            <ul class="public-header-menu clearbox">
+                <li class="header-menu"><a href=""><img src="images/logo.svg"></a></li>
+                <li class="header-menu"><a href="">发现</a></li>
+                <li class="header-menu"><a href="">最新</a></li>
+                <li class="header-menu"><a href="">美思</a></li>
+                <li class="header-menu"><a href="">活动<span>new</span></a></li>
+                <li class="header-menu"><a href="">教育</a></li>
+                <li class="header-menu"><a href=""></a></li>
+            </ul>
+            <!--搜索-->
+            <div class="public-header-input">
+                <input type="text" name="" placeholder="搜索你喜欢的">
+                <span></span>
+            </div>
+            <!--注册登录-->
+            <div class="public-header-login">
+                <div class="public-header-login-img" id="public-header-login-img">
+                    <img src="images/kong.png">
+                    <ul id="ulinfo">
+                        <li>
+                            <img src="images/persion-icon.png" />个人信息
+                        </li>
+                        <li>
+                            <img src="images/xihuan.png" />我的收藏
+                        </li>
+                        <li>
+                            <img src="images/quit-icon.png" />退出登录
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--内容区域-->
+    <div id="content" style="padding: 0.1px;">
+        <div class="content-name">
+            WEIZHENG
+            <div class="content-name-img">
+                <img src="images/kong.png">
+            </div>
+        </div>
+        <!--导航-->
+        <div class="content-menu">
+            <a href="javascript:;" id="infoshow">个人信息</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="javascript:;" id="likeshow">我的收藏</a>
+        </div>
+        <!--个人信息-->
+        <div class="info" id="info">
+            <div class="row">
+                <span class="splabel">登录名:</span>
+                <span>WEIZHENG</span>
+            </div>
+            <div class="row">
+                <span class="splabel">密码:</span>
+                <input type="text" name="" value="199611">
+                <a href="#">修改</a>
+            </div>
+            <div class="row">
+                <span class="splabel">性别:</span>
+                <input type="radio" name="gender">男
+                <input type="radio" name="gender">女
+                <a href="#">修改</a>
+            </div>
+            <div class="row">
+                <span class="splabel">头像:</span>
+                <img src="images/kong.png">
+                <a href="#">修改</a>
+            </div>
+            <div class="row">
+                <span class="splabel">所在地区:</span>
+                <input type="text" name="" value="">
+                <a href="#">修改</a>
+            </div>
+            <div class="row">
+                <span class="splabel">电话号码:</span>
+                <input type="text" name="" value="">
+                <a href="#">修改</a>
+            </div>
+            <div class="row">
+                <span class="splabel">个性签名:</span>
+                <input type="text" name="" value="">
+                <a href="#">修改</a>
+            </div>
+        </div>
+        <!--我的收藏-->
+        <div class="like" id="like">
+            <div class="content-list">
+                <!--第1行-->
+                <div class="content-list-list clearbox">
+                    <div class="list" style="position: relative;">
+                        <!--图片-->
+                        <div>
+                            <img src="images/8.png">
+                        </div>
+                        <!--标题-->
+                        <div>草莓不新鲜啊</div>
+                        <!--附加信息-->
+                        <div>
+                            <img src="images/list_icon2.jpg">
+                            <p>
+                                来自<span style="color: red;">zhangsan</span>收藏
+                            </p>
+                            <p>2017.07.05</p>
+                        </div>
+                        <a href="#" class="del">删除</a>
+                    </div>
+                </div>
+            </div>
+            <!--分页-->
+            <div class="page" id="page">
+                <a href="#">
+                    <</a>
+                        <a href="#" style="color: red;">
+                    1</a>
+                        <a href="#">
+                    2</a>
+                        <a href="#">
+                    3</a>
+                        <a href="#">
+                    4</a>
+                        <a href="#">
+                    ></a>
+            </div>
+        </div>
+    </div>
+    <!--公共底部-->
+    <div id="footer">
+        <div class="footer-main clearbox">
+            <div class="footer-menu">
+                <a href="#">花瓣首页</a>
+                <a href="#">花瓣采集工具</a>
+                <a href="#">花瓣官方微博</a>
+            </div>
+            <div class="footer-menu">
+                <a href="#">联系与合作</a>
+                <a href="#">联系我们</a>
+                <a href="#">用户反馈</a>
+                <a href="#">花瓣LOGO标准文档</a>
+            </div>
+            <div class="footer-menu">
+                <a href="#">移动客户端</a>
+                <a href="#">花瓣 iPone 版</a>
+                <a href="#">花瓣 Android 版</a>
+                <a href="#">花瓣 HD</a>
+            </div>
+            <div class="footer-look">
+                <p>
+                    关注我们
+                    <br/> 新浪微博：@花瓣网
+                    <br/> 官方 QQ：78493943
+                    <br/>
+                </p>
+            </div>
+            <div class="footer-lianxi">
+                <img src="images/erwei.png">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript">
+//让ul默认隐藏
+document.getElementById("ulinfo").style.display = "none";
+document.getElementById("public-header-login-img").onmouseover = function() {
+    document.getElementById("ulinfo").style.display = "block";
+}
+document.getElementById("public-header-login-img").onmouseout = function() {
+    document.getElementById("ulinfo").style.display = "none";
+}
+//显示个人信息
+document.getElementById("infoshow").onclick = function() {
+    document.getElementById("info").style.display = "block";
+    document.getElementById("like").style.display = "none";
+}
+//显示我的收藏
+document.getElementById("likeshow").onclick = function() {
+    document.getElementById("info").style.display = "none";
+    document.getElementById("like").style.display = "block";
+}
+</script>

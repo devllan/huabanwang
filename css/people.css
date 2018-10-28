@@ -1,0 +1,149 @@
+body {
+    background-color: #FAFAFA;
+    background-image: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+#content {
+    width: 1250px;
+}
+
+.content-name {
+    width: 100%;
+    background: #fff;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 300px;
+    position: relative;
+}
+
+.content-name-img {
+    width: 150px;
+    height: 150px;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: -75px;
+    margin-left: -75px;
+}
+
+.content-name-img img {
+    width: 100%;
+    float: left;
+}
+
+.content-menu {
+    width: 100%;
+    line-height: 60px;
+    background: #FAFAFA;
+
+    box-shadow: 0 0 5px 0px #000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content-menu a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.content-menu a:first-child {
+    color: red;
+}
+
+.content-menu a:last-child {
+    color: #000;
+}
+
+
+.info {
+    /*个人信息样式设置*/
+    width: 970px;
+
+    background: #fff;
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    padding-top: 60px;
+
+    /*无论内边距或者边框的宽度是多少，都不会破坏盒子的原本的宽度*/
+}
+
+.info span {
+    font-size: 18px;
+}
+
+.info .row {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.03);
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.info .row input[type="text"] {
+    width: 250px;
+    height: 30px;
+    border: none;
+    font-size: 18px;
+}
+
+.info .row a {
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+}
+
+.info .row img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.info .row:last-child {
+    border: none;
+}
+
+.info .splabel {
+    display: inline-block;
+    width: 80px;
+    margin-right: 80px;
+}
+
+.like {
+    width: 970px;
+    display: none;
+
+    margin-top: 50px;
+}
+
+.list .del {
+    display: inline-block;
+    background: #D44D4E;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.page {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.page a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-right: 20px;
+}

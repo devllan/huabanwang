@@ -1,0 +1,134 @@
+body{
+	background: #FAFAFA;
+}
+#content{
+	width:1248px;
+	margin: 70px auto;
+      
+       
+}
+.content_left{
+	float: left;
+	width: 60%;
+	background: #FFFFFF;
+	padding: 50px 30px;
+	text-align: center;
+	box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.30);
+	
+}
+.content_left img{
+	width: 70%;
+}
+.content_left div input{
+	background: #D44D4E;
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #D44D4E;
+	color: #FFFFFF;
+	outline: none;
+}
+.content_left div input:first-of-type{
+	float: left;
+}
+.content_left div input:last-of-type{
+	float: right;
+}
+.content_right {
+	float: right;
+	width: 30%;
+	background: #FFFFFF;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.30);
+    padding: 0px 20px;
+}
+.content_name{
+	padding-top:20px;
+	/*padding-left: 10px;*/
+	margin-bottom: 20px;
+}
+.content_name_img {
+	width: 30%;
+	float: left;
+}
+.content_name_img img{
+	width: 100%;
+}
+.content_name_title {
+	float: left;
+	padding: 20px 0px 0px 20px;
+	
+}
+.content_name_title p:first-of-type{
+	color: #333;
+	font-size: 24px;
+}
+.content_name_title p:last-of-type{
+	color: rgba(21,21,21,0.60);
+	font-size: 20px;
+}
+.content_comment{
+	/*margin: 0px 20px;*/
+	background: #FAFAFA;
+	padding: 20px;
+	text-align: center;
+}
+.content_comment img{
+	width: 20%;
+	float: left;
+	vertical-align: middle;
+}
+.content_comment span{
+	float:left;
+	display: block;
+	line-height: 60px;
+	margin-left: 20px;
+}
+.content_comment span:last-of-type{
+	float: right;
+	color: rgba(51, 51, 51, 0.60);
+    font-size: 8px;
+    margin-right: 10px;
+}
+.content_comment_content{
+	background: #FFFFFF;
+	margin-top: 10px;
+	padding: 20px 10px;
+	text-align: left;
+}
+.content_comment:last-of-type{
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+}
+.content_page{
+	/*width: 100%;*/
+	margin: 30px auto;
+	text-align: center;
+}
+.content_page a{
+	/*float: left;*/
+	margin: 0px 10px;
+	font-size: 18px;
+	color: #000000;
+}
+.content_text{
+	width: 100%;
+    height: 157px;
+    box-shadow: inset 0 1px 14px 0 rgba(0, 0, 0, 0.30);
+    border-radius: 7px;
+    resize: none;/*禁止调整元素大小*/
+   	outline: none;
+   	color: rgba(0, 0, 0, 0.30);
+}
+.content_right input{
+	background: #D44D4E;
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #D44D4E;
+	color: #FFFFFF;
+	outline: none;
+}
+.content_right div:last-of-type{
+	margin: 10px auto;
+	text-align: right;
+}
